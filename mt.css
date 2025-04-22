@@ -1,0 +1,239 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  color: red;
+  margin: 0;
+}
+
+.menu a,
+.menu button {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none; /* remove o sublinhado dos links */
+}
+
+.menu a:hover,
+.menu button:hover {
+  color: red;
+}
+
+button {
+  color: whitesmoke;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: black;
+  color: whitesmoke;
+}
+.TitleN{
+  color: red;
+}
+.triN{
+  color: whitesmoke;
+}
+.Natureza{
+ text-align: center;
+ margin-top: 5%;
+}
+.img1N{
+  width: 55%;
+}
+.Ativ1{
+  margin-right: 60%;
+  text-align: center;
+  color:whitesmoke;
+}
+a{
+  color: whitesmoke;
+  font-size: 13px;
+}
+.descript{
+  font-size: 15px;
+}
+
+.img2N{
+  width: 55%;
+}
+.Ativ2{
+  margin-left: 55%;
+  margin-top: -27%;
+  text-align: center;
+  color:whitesmoke;
+}
+.descript2{
+  font-size: 15px;
+}
+
+.img3N{
+  width: 15%;
+}
+.Ativ3{
+  margin-top: -65%;
+  margin-left: -120%;
+  text-align: center;
+  color:whitesmoke;
+}
+.descript3{
+  font-size: 15px;
+}
+
+.img4N{
+  width: 25%;
+}
+.Ativ4{
+  
+  margin-top: 5%;
+  text-align: center;
+  color:whitesmoke;
+}
+.descript4{
+  font-size: 15px;
+}
+
+.TitleL{
+  color: red;
+}
+.triL{
+  color: whitesmoke;
+}
+.Linguagens{
+ text-align: center;
+ margin-top: 5%;
+}
+
+.img1L{
+  width: 80%;
+}
+.Ativ1L{
+  margin-right: 70%;
+}
+.descriptL{
+  font-size: 15px;
+}
+
+.img2L{
+  width: 25%;
+}
+.Ativ2L{
+ margin-top: -27%;
+  align-items: center;
+}
+.descript2L{
+  font-size: 15px;
+}
+
+.img3L{
+  width: 20%;
+}
+.Ativ3L{
+ margin-top: 10%;
+ align-items: center;
+}
+.descript3L{
+  font-size: 15px;
+}
+
+.img4L{
+  width: 55%;
+}
+.Ativ4L{
+ margin-top: -67%;
+ margin-left: 60%;
+ 
+}
+.descript4L{
+  font-size: 15px;
+}
+
+.img5L{
+  width: 70%;
+}
+.Ativ5L{
+ margin-top: 12%;
+ margin-left: 60%;
+}
+.descript5L{
+  font-size: 15px;
+}
+
+.img6L{
+  width: 67%;
+}
+.Ativ6L{
+ margin-top: -35%;
+ margin-right: 67%;
+}
+.descript6L{
+  font-size: 15px;
+}
+
+.Mtm{
+  text-align: center;
+  margin-top: 5%;
+}
+.TitleM{
+  color: red;
+}
+
+.img1M{
+  width: 60%;
+}
+.Ativ1M{
+ margin-right: 50%;
+}
+.descriptM{
+  font-size: 15px;
+}
+
+.img2M{
+  width: 60%;
+}
+.Ativ2M{
+ margin-left: 50%;
+ margin-top: -38%;
+}
+.descript2M{
+  font-size: 15px;
+}
+
+.Humanas{
+  text-align: center;
+  margin-top: 5%;
+}
+.TitleH{
+  color: red;
+}
+
+.img1H{
+  width: 60%;
+}
+.Ativ1H{
+  margin-right: 50%;
+}
+.descriptH{
+  font-size: 15px;
+}
+
+.img2H{
+  width: 60%;
+}
+.Ativ2H{
+  margin-left: 50%;
+  margin-top: -37%;
+}
+.descript2H{
+  font-size: 15px;
+}

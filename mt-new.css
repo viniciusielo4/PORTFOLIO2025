@@ -1,0 +1,353 @@
+/* ==========================================
+   RESET AND BASE STYLES
+   ========================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* ==========================================
+   HEADER STYLES
+   ========================================== */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  color: #f5f5f5;
+  border-bottom: 2px solid #dc143c;
+}
+
+.title {
+  color: #dc143c;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #f5f5f5;
+  background: none;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #dc143c;
+}
+
+/* ==========================================
+   SECTION TITLES
+   ========================================== */
+
+.Natureza,
+.Linguagens,
+.Mtm,
+.Humanas {
+  text-align: center;
+  margin: 80px 0 50px 0;
+  padding: 40px 0;
+  border-top: 1px solid #333;
+}
+
+.TitleN,
+.TitleL,
+.TitleM,
+.TitleH,
+.TitleN2,
+.TitleL2,
+.Title2M,
+.TitleH2 {
+  color: #dc143c;
+  font-size: 42px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.triN,
+.triL,
+.triM,
+.triH,
+.triN2,
+.triL2,
+.tri2M,
+.triH2 {
+  color: #f5f5f5;
+  font-size: 24px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+/* ==========================================
+   ACTIVITY CONTAINERS
+   ========================================== */
+
+/* Base activity container styles */
+.Ativ1,
+.Ativ2,
+.Ativ3,
+.Ativ4,
+.Ativ1L,
+.Ativ2L,
+.Ativ3L,
+.Ativ4L,
+.Ativ5L,
+.Ativ6L,
+.Ativ1M,
+.Ativ2M,
+.Ativ1H,
+.Ativ2H,
+.Ativ1-2T,
+.Ativ2-2T,
+.Ativ3-2T,
+.Ativ3-3T,
+.Ativ1L-2T,
+.Ativ2L-2T,
+.Ativ3L-2T,
+.Ativ1M-2T,
+.Ativ2M-2T,
+.Ativ1H-2T,
+.Ativ2H-2T,
+.Ativ3H-2T {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 30px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(220, 20, 60, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effects for activity containers */
+.Ativ1:hover,
+.Ativ2:hover,
+.Ativ3:hover,
+.Ativ4:hover,
+.Ativ1L:hover,
+.Ativ2L:hover,
+.Ativ3L:hover,
+.Ativ4L:hover,
+.Ativ5L:hover,
+.Ativ6L:hover,
+.Ativ1M:hover,
+.Ativ2M:hover,
+.Ativ1H:hover,
+.Ativ2H:hover,
+.Ativ1-2T:hover,
+.Ativ2-2T:hover,
+.Ativ3-2T:hover,
+.Ativ3-3T:hover,
+.Ativ1L-2T:hover,
+.Ativ2L-2T:hover,
+.Ativ3L-2T:hover,
+.Ativ1M-2T:hover,
+.Ativ2M-2T:hover,
+.Ativ1H-2T:hover,
+.Ativ2H-2T:hover,
+.Ativ3H-2T:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(220, 20, 60, 0.2);
+}
+
+/* Alternating layout - image right, text left */
+.Ativ2,
+.Ativ2L,
+.Ativ2M,
+.Ativ2H,
+.Ativ2-2T,
+.Ativ2L-2T,
+.Ativ2M-2T,
+.Ativ2H-2T {
+  flex-direction: row-reverse;
+}
+
+/* ==========================================
+   IMAGE STYLES
+   ========================================== */
+
+img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* ==========================================
+   TEXT CONTENT STYLES
+   ========================================== */
+
+/* Content wrapper for better text organization */
+.content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Paragraph styles */
+.Ativ1 p,
+.Ativ2 p,
+.Ativ3 p,
+.Ativ4 p,
+.Ativ1L p,
+.Ativ2L p,
+.Ativ3L p,
+.Ativ4L p,
+.Ativ5L p,
+.Ativ6L p,
+.Ativ1M p,
+.Ativ2M p,
+.Ativ1H p,
+.Ativ2H p,
+.Ativ1-2T p,
+.Ativ2-2T p,
+.Ativ3-2T p,
+.Ativ3-3T p,
+.Ativ1L-2T p,
+.Ativ2L-2T p,
+.Ativ3L-2T p,
+.Ativ1M-2T p,
+.Ativ2M-2T p,
+.Ativ1H-2T p,
+.Ativ2H-2T p,
+.Ativ3H-2T p {
+  color: #f5f5f5;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Heading styles */
+h3 {
+  color: #dc143c;
+  font-size: 22px;
+  margin: 20px 0 15px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Description text styles */
+.descript,
+.descript2,
+.descript3,
+.descript4,
+.descriptL,
+.descript2L,
+.descript3L,
+.descript4L,
+.descript5L,
+.descript6L,
+.descriptM,
+.descript2M,
+.descriptH,
+.descript2H,
+.descript1H-2T,
+.descript2H-2T,
+.descript3H-2T,
+.descriptM-2T,
+.descript2M-2T,
+.descriptL-2T,
+.descript2L-2T,
+.descript3L-2T {
+  color: #e0e0e0;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* ==========================================
+   LINK STYLES
+   ========================================== */
+
+a {
+  color: #dc143c;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #dc143c;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+a:hover {
+  background-color: #dc143c;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN
+   ========================================== */
+
+@media (max-width: 768px) {
+  /* Stack activity containers vertically on mobile */
+  .Ativ1,
+  .Ativ2,
+  .Ativ3,
+  .Ativ4,
+  .Ativ1L,
+  .Ativ2L,
+  .Ativ3L,
+  .Ativ4L,
+  .Ativ5L,
+  .Ativ6L,
+  .Ativ1M,
+  .Ativ2M,
+  .Ativ1H,
+  .Ativ2H,
+  .Ativ1-2T,
+  .Ativ2-2T,
+  .Ativ3-2T,
+  .Ativ3-3T,
+  .Ativ1L-2T,
+  .Ativ2L-2T,
+  .Ativ3L-2T,
+  .Ativ1M-2T,
+  .Ativ2M-2T,
+  .Ativ1H-2T,
+  .Ativ2H-2T,
+  .Ativ3H-2T {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  /* Responsive image sizing */
+  img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Responsive header */
+  .cabecalho {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

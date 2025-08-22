@@ -3,27 +3,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-  color: red;
-  margin: 0;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #000;
+  color: #f5f5f5;
+  border-bottom: 2px solid #dc143c;
 }
 
-.menu a,
-.menu button {
-  color: whitesmoke;
+.title {
+  color: #dc143c;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #f5f5f5;
   background: none;
   border: none;
-  margin-left: 15px;
+  margin-left: 20px;
   cursor: pointer;
-  font-size: 14px;
-  text-decoration: none; /* remove o sublinhado dos links */
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.menu a:hover,
-.menu button:hover {
-  color: red;
+.menu a:hover {
+  color: #dc143c;
 }
-
 button {
   color: whitesmoke;
   background-color: black;
@@ -63,14 +73,6 @@ button {
     margin-top: -23%;
     width: 300px;
     
-}
-.cabecalho {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: black;
-  color: whitesmoke;
 }
 
 
